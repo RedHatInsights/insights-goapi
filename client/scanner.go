@@ -9,7 +9,7 @@ import (
 	"github.com/RedHatInsights/insights-goapi/common"
 )
 
-const clientCmd = "sudo insights-client --no-gpg --analyze-mountpoint=%s"
+const clientCmd = "insights-client --no-gpg --analyze-mountpoint=%s"
 
 type Scanner interface {
 	
